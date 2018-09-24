@@ -34,8 +34,8 @@ int main() {
 	root->right = getNode(2);
 	root->left->left = getNode(3);
 	root->left->right = getNode(4);
-	root->right->left = getNode(4);
-	root->right->right = getNode(3);
+	root->right->left = getNode(3);
+	root->right->right = getNode(4);
 	int valid = isSymmetric(root);
 	if (valid == 1)
 		printf(" True ");
